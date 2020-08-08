@@ -11,20 +11,20 @@
         <img src="./src/img/connect-img.jpg" alt="" class='w-full h-40 object-cover md:h-full flex-1'>
         <div class="p-4 flex-1 md:flex md:flex-col justify-center items-center">
             <h1 class='text-3xl font-bold text-gray-800 mb-2'>Sign-up here</h1>
-            <form action="">
+            <form method='post' action="./insert-inscription.php">
                 <div class='m-4'>
                     <label for="username" class='block text-gray-600 mb-2'>Username</label>
-                    <input type="text" class='border shadow-inner py-2 px-3 text-gray-700 w-full focus:shadow-inner'>
+                    <input name='username' type="text" class='border shadow-inner py-2 px-3 text-gray-700 w-full focus:shadow-inner'>
                 </div>
 
                 <div class='m-4'>
                     <label for="mail" class='block text-gray-600 mb-2'>E-mail</label>
-                    <input type="text" class='border shadow-inner py-2 px-3 text-gray-700 w-full focus:shadow-inner'>
+                    <input name='mail' type="text" class='border shadow-inner py-2 px-3 text-gray-700 w-full focus:shadow-inner'>
                 </div>
 
                 <div class='m-4'>
                     <label for="password" class='block text-gray-600 mb-2'>Password</label>
-                    <input type="password" class='border shadow-inner py-2 px-3 text-gray-700 w-full focus:shadow-inner mb-4'>
+                    <input name='password' type="password" class='border shadow-inner py-2 px-3 text-gray-700 w-full focus:shadow-inner mb-4'>
                 </div>
 
                 <div class='flex justify-center items-center'>
