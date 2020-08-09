@@ -7,6 +7,8 @@ session_start();
 
 include './db.php';
 
+// Approfondissement : https://www.w3schools.com/php/php_mysql_select.asp
+
 $sql_connect = "SELECT * FROM user WHERE user.email='" . $_POST['mail'] . "'";
 
 // Lance la requête sql et rend la réponse sous forme d'objet
